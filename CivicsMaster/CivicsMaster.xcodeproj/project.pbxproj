@@ -12,10 +12,10 @@
 		59C2E23F175D43CB0072E8A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C2E23E175D43CB0072E8A2 /* CoreGraphics.framework */; };
 		59C2E245175D43CB0072E8A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59C2E243175D43CB0072E8A2 /* InfoPlist.strings */; };
 		59C2E247175D43CB0072E8A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C2E246175D43CB0072E8A2 /* main.m */; };
-		59C2E24B175D43CB0072E8A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C2E24A175D43CB0072E8A2 /* AppDelegate.m */; };
-		59C2E24D175D43CB0072E8A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C2E24C175D43CB0072E8A2 /* Default.png */; };
-		59C2E24F175D43CB0072E8A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C2E24E175D43CB0072E8A2 /* Default@2x.png */; };
-		59C2E251175D43CB0072E8A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C2E250175D43CB0072E8A2 /* Default-568h@2x.png */; };
+		59C2E274175D462F0072E8A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C2E273175D462F0072E8A2 /* AppDelegate.m */; };
+		59C2E27B175D46590072E8A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C2E278175D46590072E8A2 /* Default-568h@2x.png */; };
+		59C2E27C175D46590072E8A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C2E279175D46590072E8A2 /* Default.png */; };
+		59C2E27D175D46590072E8A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C2E27A175D46590072E8A2 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		59C2E244175D43CB0072E8A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59C2E246175D43CB0072E8A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59C2E248175D43CB0072E8A2 /* CivicsMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CivicsMaster-Prefix.pch"; sourceTree = "<group>"; };
-		59C2E249175D43CB0072E8A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		59C2E24A175D43CB0072E8A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		59C2E24C175D43CB0072E8A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		59C2E24E175D43CB0072E8A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		59C2E250175D43CB0072E8A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		59C2E272175D462F0072E8A2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59C2E273175D462F0072E8A2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59C2E278175D46590072E8A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		59C2E279175D46590072E8A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		59C2E27A175D46590072E8A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		59C2E240175D43CB0072E8A2 /* CivicsMaster */ = {
 			isa = PBXGroup;
 			children = (
-				59C2E249175D43CB0072E8A2 /* AppDelegate.h */,
-				59C2E24A175D43CB0072E8A2 /* AppDelegate.m */,
+				59C2E271175D462F0072E8A2 /* Classes */,
+				59C2E275175D464C0072E8A2 /* Resources */,
 				59C2E241175D43CB0072E8A2 /* Supporting Files */,
 			);
 			path = CivicsMaster;
@@ -92,12 +92,44 @@
 				59C2E243175D43CB0072E8A2 /* InfoPlist.strings */,
 				59C2E246175D43CB0072E8A2 /* main.m */,
 				59C2E248175D43CB0072E8A2 /* CivicsMaster-Prefix.pch */,
-				59C2E24C175D43CB0072E8A2 /* Default.png */,
-				59C2E24E175D43CB0072E8A2 /* Default@2x.png */,
-				59C2E250175D43CB0072E8A2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		59C2E271175D462F0072E8A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59C2E272175D462F0072E8A2 /* AppDelegate.h */,
+				59C2E273175D462F0072E8A2 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		59C2E275175D464C0072E8A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59C2E276175D46590072E8A2 /* fonts */,
+				59C2E277175D46590072E8A2 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		59C2E276175D46590072E8A2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fonts;
+			sourceTree = SOURCE_ROOT;
+		};
+		59C2E277175D46590072E8A2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				59C2E278175D46590072E8A2 /* Default-568h@2x.png */,
+				59C2E279175D46590072E8A2 /* Default.png */,
+				59C2E27A175D46590072E8A2 /* Default@2x.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -151,9 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59C2E245175D43CB0072E8A2 /* InfoPlist.strings in Resources */,
-				59C2E24D175D43CB0072E8A2 /* Default.png in Resources */,
-				59C2E24F175D43CB0072E8A2 /* Default@2x.png in Resources */,
-				59C2E251175D43CB0072E8A2 /* Default-568h@2x.png in Resources */,
+				59C2E27B175D46590072E8A2 /* Default-568h@2x.png in Resources */,
+				59C2E27C175D46590072E8A2 /* Default.png in Resources */,
+				59C2E27D175D46590072E8A2 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59C2E247175D43CB0072E8A2 /* main.m in Sources */,
-				59C2E24B175D43CB0072E8A2 /* AppDelegate.m in Sources */,
+				59C2E274175D462F0072E8A2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
