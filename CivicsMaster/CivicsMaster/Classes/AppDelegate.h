@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    
+@private
+    NSString *_logFilePath;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

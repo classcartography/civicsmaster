@@ -3,12 +3,30 @@
 //
 
 #import <Availability.h>
+#import "DDLog.h"
+#import "DDTTYLogger.h"
 
 #ifndef __IPHONE_3_0
 #warning "This project uses features only available in iOS SDK 3.0 and later."
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #endif
+
+#ifdef DEBUG
+#define _AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES_ = YES;
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#elif DISTRIBUTION
+static const int ddLogLevel = LOG_LEVEL_INFO;
+#else //RELEASE
+static const int ddLogLevel = LOG_LEVEL_ERROR;
+#endif
+
+// Debug level logging
+#define DLOG(s, ...) DDLogVerbose(@"%s [Line %d]--> %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+// Info level logging
+#define ILOG(s, ...) DDLogInfo(@"%s [Line %d]--> %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+// Error level logging
+#define ELOG(s, ...) DDLogError(@"%s [Line %d]--> %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
