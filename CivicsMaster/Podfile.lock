@@ -1,6 +1,9 @@
 PODS:
   - AFNetworking (1.3.0)
   - CocoaLumberjack (1.6.2)
+  - Facebook-iOS-SDK (3.5.1)
+  - FlurrySDK (4.2.1)
+  - HockeySDK (3.0.0)
   - NSLogger (1.1)
   - NSLogger-CocoaLumberjack-connector (1.3):
     - CocoaLumberjack
@@ -10,6 +13,9 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - CocoaLumberjack
+  - Facebook-iOS-SDK
+  - FlurrySDK
+  - HockeySDK
   - NSLogger
   - NSLogger-CocoaLumberjack-connector
   - SBJson
@@ -17,6 +23,9 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: e528f20d06b1b818c3571266fb5efa20031a8ace
   CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
+  Facebook-iOS-SDK: 0dbd897e842cefeb012ec2eb8eba659ba6b96b12
+  FlurrySDK: ed65c2389c6028244cb0e57f31fe370cc1b17f22
+  HockeySDK: 286d86c6e89a35de7f3e4f3c2879a07185ee0918
   NSLogger: 4567fef08d0db18a89cce91b2053823fc0950738
   NSLogger-CocoaLumberjack-connector: da77800fec7415c1d378dfd93465031a58c5a9a8
   SBJson: e60b4dc22448c2ae1e754b523a4ab53408e85c8d
