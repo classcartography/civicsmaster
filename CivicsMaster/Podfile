@@ -1,0 +1,6 @@
+platform :ios, '5.0'
+pod 'NSLogger'
+pod 'CocoaLumberjack'
+pod 'NSLogger-CocoaLumberjack-connector'
+pod 'AFNetworking'
+pod 'SBJson'
